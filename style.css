@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #250057;
+}
+.container{
+    width:90%;
+    max-width: 700px;
+    /* height: 100vh; */
+    margin-top: 10%;
+    margin-left: 100px;
+    /* max-width: 600px; */
+    background: #250057;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.container h1{
+    font-weight: 500;
+    color: #fff;
+    
+    margin-bottom: -90px;
+}
+.container h1 span{
+    color: #20a326;
+    border-bottom: 4px solid #20a326;
+    padding-bottom: 6px;
+    
+}
+
+
+.input-box{
+    background: #fff;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 130px 0px; 
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.input-box input{
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    color: #555;
+}
+.input-box  img{
+    width: 35px;
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 20px;
+}
+#message{
+    color: #fff;
+    position: absolute;
+    bottom: -30px;
+    font-size: 15px;
+    /* text-align: left; */
+    margin-left: -20px;
+    display: none;
+    
+}
+.container button{
+    background: #20a326;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 14px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -80px;
+    cursor: pointer;
+
+
+}
+.container button img{
+    width: 20px;
+    margin-right: 10px;
+}
